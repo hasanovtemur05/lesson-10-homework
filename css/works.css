@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+@font-face {
+    font-family:"heebo" ;
+    src: url(../heebo.ttf);
+}
+.container{
+    width: 1152px;
+    height: 1400px;
+    margin: auto;
+    background-color: white;
+
+}
+.link{
+    width: 1152px;
+    height: 150px;
+
+}
+.link ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    padding: 25px 120px;
+}
+#link-blog{
+    color: crimson;
+}
+.link a{
+    color: black;
+    font-family: "heebo";
+    font-size: 22px;
+    text-decoration: none;
+}
+.link a:hover{
+    padding: 5px 12px;
+    border: 2px solid green;
+    background-color: rgb(207, 206, 206);
+    border-radius: 10px;
+    transition: all 0.2s linear;
+    box-shadow: 5px 5px 10px gray;
+}
+.works{
+    width: 681px;
+    height: 54px;
+    margin: auto;
+}
+.works h1{
+    font-family: "heebo";
+    font-size: 44px;
+    color: #21243D;
+}
+.section{
+    width: 682px;
+    height: 180px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.text{
+    width: 418px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;  
+    gap: 18px;
+}
+.text h2{
+    font-family: "heebo";
+    font-size: 30px;
+    color: #21243D;
+}
+#yil{
+    font-size: 18px;
+    font-family: "heebo";
+    width: 60px;
+    background-color: #142850;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+}
+.text-item{
+    display: flex;
+    gap: 10px;
+}
+#Dashboard{
+    font-family: "heebo";
+    font-size: 20px;
+    color: #8695A4;
+}
+.text p{
+    font-size: 16px;
+    color: #21243D;
+    font-family: "heebo";
+}
+hr{
+    width: 682px;
+    margin: auto;
+}
+footer{
+    width: 1152px;
+    height: 182px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 239, 239);
+}
+footer div{
+    width: 210px;
+    height: 100px;
+  
+}
+footer div .icon{
+    width: 210px;
+    height:60px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer i{
+    font-size: 25px;
+    color: #21243D;
+}
+footer p{
+    font-size: 14px;
+    color: #21243D;
+    padding: 10px 0px;
+}
+footer i:hover{
+    box-shadow: 5px 5px 10px grey;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}

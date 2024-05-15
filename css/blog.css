@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "heebo";
+    src: url(../heebo.ttf);
+}
+body{
+    background-color: lightgray;
+}
+.container{
+    width: 1152px;
+    height: 1500px;
+    margin: auto;
+    background-color: white;
+}
+.link{
+    width: 1152px;
+    height: 150px;
+}
+.link ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    padding: 25px 120px;
+}
+#link-blog{
+    color: crimson;
+}
+.link a{
+    color: black;
+    font-family: "heebo";
+    font-size: 22px;
+    text-decoration: none;
+}
+.link a:hover{
+    padding: 5px 12px;
+    border: 2px solid green;
+    background-color: rgb(207, 206, 206);
+    border-radius: 10px;
+    transition: all 0.2s linear;
+    box-shadow: 5px 5px 10px gray;
+}
+nav{
+    width: 681px;
+    height: 54px;
+    margin: auto;
+}
+.blog-container{
+    width: 682px;
+    height: 1500px;
+    margin: auto;
+}
+nav h1{
+    font-family: "heebo";
+    font-size: 44px;
+    color: #21243D;
+    
+}
+.text{
+    width: 350px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #21243D;
+}
+.text h2{
+    font-family: "heebo";
+    color: #21243D;
+}
+.text p{
+    font-family: "heebo";
+    font-size: 20px;
+    color: #21243D;
+}
+#p-item{
+    font-family: "heebo";
+    font-size: 20px;
+    color: #21243D;
+}
+#text-item{
+    font-size: 16px;
+    font-family: "heebo";
+}
+.blog-container section{
+    width: 682px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+section h2{
+    font-size: 30px;
+    font-family: "heebo";
+    color: #21243D;
+}
+hr{
+    margin-top: 20px;
+    
+}
